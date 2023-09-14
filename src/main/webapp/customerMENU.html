@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>customer menu page</title>
+<style type="text/css">
+
+	body
+	{
+		background-image: url("https://img.freepik.com/free-photo/orange-bokeh-lights-background_53876-98264.jpg?w=1060&t=st=1692876541~exp=1692877141~hmac=972bd6c097a791e3330104858f5d9851924fb9eda7aaee4470a3938af509ac16");
+		background-repeat: no-repeat;
+		background-size: cover;
+		text-align: center ; 
+	}
+	
+	div a
+	{
+		text-decoration: none ;
+		color: black;
+	}
+	
+	button
+	{
+		margin: 15px ;
+		background-color: orange ;
+		border: 2px solid black;
+	}
+	
+	
+	.btn1
+	{
+		border: 1.5px solid black ;
+		background-color: yellow;
+		width: 100px ;
+		font-size: 20px ;
+	}
+</style>
+</head>
+<body>
+		<div>
+			<h1 style="color: red"><span style="color: #0048ba">Dear Customer,</span> <br>Welcome to our Bank</h1>
+			<button> <a href="customerAddMoney.jsp"> <h4> Add Money </h4> </a> </button>
+			<button> <a href="customerSendMoney.jsp"> <h4> Send Money </h4> </a> </button>
+			<button> <a href="customerUpdateProfile.jsp"><h4>Update Profile</h4></a> </button>
+			<button> <a href="customerDelete.jsp"><h4>Delete Account</h4></a> </button>
+			<button> <a href="updateCustomer.jsp"><h4>Update Password</h4></a> </button>
+			<button> <a href="checkaccountbalance"><h4>Check Balance</h4></a> </button> <br><br>
+		</div>
+		
+		<form action="Logout" method="post">
+			<button class="btn1"><h4>Log out</h4></button>
+		</form>
+</body>
+</html>
